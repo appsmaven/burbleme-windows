@@ -1,0 +1,14 @@
+﻿<xapCache source="D:\Windows_App\BurbleMe\BurbleMe\Bin\Debug\BurbleMe_Debug_AnyCPU.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="9/29/2014 1:16:48 PM">
+  <file source="D:\Windows_App\BurbleMe\BurbleMe\obj\Debug\BurbleMe.dll" archivePath="BurbleMe.dll" lastWriteTime="9/29/2014 1:16:47 PM" />
+  <file source="D:\Windows_App\BurbleMe\BurbleMe\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="9/29/2014 12:01:10 PM" />
+  <file source="D:\Windows_App\BurbleMe\BurbleMe\Assets\back_ground.png" archivePath="Assets\back_ground.png" lastWriteTime="9/29/2014 12:36:45 PM" />
+  <file source="D:\Windows_App\BurbleMe\BurbleMe\Assets\burble_splash_screen.png" archivePath="Assets\burble_splash_screen.png" lastWriteTime="9/29/2014 12:36:45 PM" />
+  <file source="D:\Windows_App\BurbleMe\BurbleMe\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="9/29/2014 12:01:10 PM" />
+  <file source="D:\Windows_App\BurbleMe\BurbleMe\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="9/29/2014 12:01:10 PM" />
+  <file source="D:\Windows_App\BurbleMe\BurbleMe\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="9/29/2014 12:01:10 PM" />
+  <file source="D:\Windows_App\BurbleMe\BurbleMe\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="9/29/2014 12:01:10 PM" />
+  <file source="D:\Windows_App\BurbleMe\BurbleMe\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="9/29/2014 12:01:32 PM" />
+  <file source="D:\Windows_App\BurbleMe\BurbleMe\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="9/29/2014 12:01:10 PM" />
+  <file source="D:\Windows_App\BurbleMe\BurbleMe\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="9/29/2014 12:01:10 PM" />
+  <file source="D:\Windows_App\BurbleMe\BurbleMe\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="9/29/2014 12:01:32 PM" />
+</xapCache>
