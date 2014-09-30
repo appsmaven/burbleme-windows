@@ -1,0 +1,46 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="BurbleMe.LoginScreen"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+
+    <Grid x:Name="LayoutRoot" Style="{StaticResource LoginscreenBackgoundStyle}" Margin="1,0,-1,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="LoginButton" Content="SignIn" Click="Button_Click_signin" BorderThickness="0"  HorizontalAlignment="Left" Style="{StaticResource LoginBTNBackgoundStyle}" VerticalAlignment="Bottom" RenderTransformOrigin="0.659,4.261" Margin="14,0,0,204" Grid.Row="1" Width="456" Height="85" />
+
+        <CheckBox Content="remember me?"  Foreground="Black" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="14,573,0,0" Grid.Row="1" RenderTransformOrigin="0.542,0.356"/>
+        <TextBox x:Name="UsernameTextBox" HorizontalAlignment="Left" Height="72"  TextAlignment="Center" TextWrapping="Wrap" Text="Username" Background="White" VerticalAlignment="Top" Width="456" Margin="14,328,0,0" Grid.Row="1" TextChanged="TextBox_TextChanged_1"/>
+        <TextBox x:Name="PasswordTextBox" 
+                 HorizontalAlignment="Left" 
+                 Height="72"  
+                 TextAlignment="Center" 
+                 TextWrapping="Wrap" 
+                 Text="Password" 
+                 Background="White" 
+                 VerticalAlignment="Top" 
+                 Width="456" Margin="14,395,0,0" 
+                Grid.Row="1"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="reset your password?" Foreground="Black" VerticalAlignment="Top" Margin="264,596,0,0" Grid.Row="1" RenderTransformOrigin="0.803,0.453" Width="188"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Not yet registered ? Sign up" Foreground="White" VerticalAlignment="Top" Margin="119,655,0,0" Grid.Row="1" RenderTransformOrigin="0.803,0.453" Width="254"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Terms and conditions" Foreground="Black" VerticalAlignment="Top" Margin="30,712,0,0" Grid.Row="1" RenderTransformOrigin="0.803,0.453" Width="188"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Privacy Statement" Foreground="Black" VerticalAlignment="Top" Margin="286,711,0,0" Grid.Row="1" RenderTransformOrigin="0.803,0.453" Width="166"/>
+        <Image HorizontalAlignment="Center" Height="269" Grid.RowSpan="2" VerticalAlignment="Top" Width="285" Source="/Assets/logo.png" Margin="98,33,97,0"/>
+
+
+    </Grid>
+
+</phone:PhoneApplicationPage>
